@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+enum PathType: Hashable {
+    case homeView
+    case todoView
+    case memoview(isCreateMode: Bool, memo: Memo?)
+}
